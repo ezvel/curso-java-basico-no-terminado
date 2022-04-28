@@ -1,0 +1,59 @@
+/*
+Clase 4
+Variables y tipos de datos
+Se diferencia los diferentes tipos de datos según la necesidad que permite
+alojar
+
+Primitivos
+	byte (-128 hasta 127)
+	short(-32768 hasta 32767)
+	int(-2147483648 hasta 2147483647)
+	long(muy grande...)
+Decimales
+	float(hasta 8 valores después del punto)
+	double(hasta 15 valores desués del punto -> mayor precisión)
+Otros
+	char(un solo caracter, texto o numérico)
+	boolean(true o false)
+
+Tipos objeto
+Hay que invocarlos
+	String(cadena de textos) <- es una clase, una plantilla, un modelo, código a llamar y ejecutar
+	
+Variable
+Espacio en memoria para almacenar datos
+Para abrir un espacio en memoria necesito
+	Tipo de dato
+	Nombre
+	
+Tarea:
+Hacer una suma de dos números
+
+5 + 2 = 7
+
+Necesito guardar los datos en memoria
+	
+
+*/
+
+
+public class VariablesTiposDeDatos{
+  public static void main(String args[]){
+   
+   //Variables
+   int numUno = 5;
+   int numDos = 2;
+   int resultado;
+   
+
+  //Operación
+  resultado = numUno + numDos;
+
+
+  //Información
+  System.out.println("El resultado es " + resultado);
+ }
+}
+
+
+
