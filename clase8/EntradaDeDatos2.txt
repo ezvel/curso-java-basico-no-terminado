@@ -1,0 +1,49 @@
+/*
+
+Scanner
+https://www.youtube.com/watch?v=XNIDPJHLFRo&list=PLDfQIFbmwhrfrz0eMwmgkpaDYHpdbXO73&index=4
+
+Apis de Java
+
+Necesito utilizar una clase que se encuentra en la Api e Java
+Las clases se almacenan en paquetes dentro de la Api
+El paquete es java.util
+Dentro del paquete java.util se encuentra Scanner
+Para utilizarla tengo que instanciar la clase en un objeto de ese modelo
+Por lo tanto al crear el objeto puedo adquirir el código escrito dentro de la clase Scanner y, por lo
+tanto, al llamarla, podemos utilizar su código
+
+APis:
+https://docs.oracle.com/javase/7/docs/api/
+Documentación de Scanner para más información
+https://docs.oracle.com/javase/7/docs/api/
+
+.nextLine()
+.nextInt()
+.nextByte() -> para tipos de datos de tipo Byte
+.nextDouble()
+.nextFLoat()
+.nextLong()
+.nextShort()
+
+Es decir hay una relación entre el tipo de dato y el valor que tienen que corresponder
+con la entrada del usuario por pantalla
+
+
+
+Importamos
+import java.util.Scanner;
+Llamamos al metodo Scanner
+Creamos un objeto
+Instanciamos el objeto cómo una nueva instancia de Scanner
+Cómo Scanner es una clase la encerramos entre parentesis y llamamos al método
+System para ejecutar el in
+
+Scanner entrada = new Scanner(System.in).
+
+*/
+
+
+
+
+
