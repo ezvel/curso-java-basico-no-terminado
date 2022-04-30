@@ -14,6 +14,22 @@ En switch solo podemos colocar enteros o caracteres
 Siempre colocar breaks
 Terminar con un default
 
+Proceso:
+
+1.Pedimos un dato al usuario
+2.Lo guardamos en una variable
+3.Utilizaremos esa variable cómo parámetro dentro del switch
+4.El switch evaluará el valor de esa variable o parámetro en cada caso
+	Si n es 1
+	Si n es 2
+	Si n es 3
+ 	...
+5.Luego si por ejemplo la el valor de n ingresado por el usuario es 1, 
+entonces ingesará a ese caso y se ejecutará esa linea o esas lineas de código.
+
+El break permite que quiebre el proceso para que cuándo entre en el caso indicado
+finalice el switch
+
 */
 
 import java.util.Scanner;
