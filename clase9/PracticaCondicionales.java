@@ -98,7 +98,7 @@ public class PracticaCondicionales{
   //clave 3
   } else if (clave == 3){
 
-   if (antiguedad == 1) {
+    if (antiguedad == 1) {
      System.out.println(nombre + " clave " + clave + ", tiene " + antiguedad + " años de servicio. Merece 10 días de vacaciones");
    } else if (antiguedad >= 2 && antiguedad <= 6) {
      System.out.println(nombre + " clave " + clave + ", tiene " + antiguedad + " años de servicio. Merece 20 días de vacaciones");
